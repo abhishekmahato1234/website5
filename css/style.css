@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+h4{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    font-family: sans-serif;
+    margin:0px;
+    padding:0px;
+}
+a{
+    text-decoration:none;
+}
+#plans
+{
+    background-color: rgb(17, 17, 63);
+    overflow: hidden;
+    padding-bottom:80px;
+}
+.plan-title 
+{
+    color: white;
+    text-align: center;
+
+}
+.plan-title h1{
+    font-size:45px;
+    margin-bottom:0px;
+}
+.plan-title p
+{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 20px;
+}
+.plan-container
+{
+    display: flex;
+    padding:0px 5% 0px 5%;
+}
+.plan-div
+{
+    background: rgb(118,153,255);
+background: linear-gradient(180deg, rgba(118,153,255,1) 0%, rgba(0,78,255,1) 85%);
+    color: white;
+    flex:1;
+    margin: 10px;
+    padding:10px;
+    text-align: center;
+}
+.plan-div-1{
+    background: rgb(0,212,255);
+    background: linear-gradient(180deg, rgba(0,212,255,1) 19%, rgba(0,78,255,1) 85%);
+    color: white;
+    flex:1;
+    margin: 10px;
+    padding:10px;
+    text-align: center;
+}
+.plan-div h4
+{
+    margin-bottom: 0px;
+}
+.plan-div h1{
+    margin-top:5px;
+    font-size:40px;
+    margin-bottom:0px;
+}
+.plan-div p
+{
+    margin-top:2px;
+}
+.plan-div hr
+{
+  width:80%;
+  margin-bottom:30px;
+  margin-top: 20px;
+}
+.features p
+{
+margin: 10px 0px 10px 0px;
+}
+.plan-div button
+{
+    margin:20px 0px 30px 0px;
+    background-color:white;
+    color: blue;
+    padding:10px 30px 10px 30px;
+    border-radius:15px;
+    border: none;
+    font-weight: bold;
+}
